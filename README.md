@@ -13,7 +13,7 @@ Installation
 composer require aziraphale/json
 ```
 
-This package defines a PSR-4 autoload spec that Composer should recognise and automatically make available for you, so by using `use Aziraphale\json;` at the top of your file(s) this JSON class will be made available to you.
+This package defines a PSR-4 autoload spec that Composer should recognise and automatically make available for you, so by using `use Aziraphale\json\JSON;` at the top of your file(s) this JSON class will be made available to you in that file.
 
 ### Manual
 Simply copy the `JSON.php` file from this repository into whichever directory you use to store third-party classes and libraries, then include `JSON.php` in whichever files need it. But seriously, use Composer, it's much easier.
